@@ -1,0 +1,9 @@
+{
+  "name": "HeroRui",
+  "description": "朱红与纸白。基于 Ant Design + HeroUI 的全新 Xboard 用户主题。",
+  "version": "1.0.0",
+  "images": "",
+  "configs": [
+    {"label":"自定义页脚 HTML","placeholder":"可加入客服脚本或统计代码","field_name":"custom_html","field_type":"textarea","default_value":""}
+  ]
+}

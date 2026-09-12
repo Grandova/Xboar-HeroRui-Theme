@@ -1,0 +1,39 @@
+{
+  "name": "herorui-xboard-theme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/package.mjs",
+    "test": "npm run build && node tests/smoke.mjs && node tests/integrations.mjs",
+    "preview": "node tests/preview.mjs"
+  },
+  "dependencies": {
+    "@ant-design/icons": "6.3.4",
+    "@heroui/react": "3.2.5",
+    "@heroui/styles": "3.2.5",
+    "antd": "6.6.3",
+    "dompurify": "3.4.15",
+    "lucide-react": "1.45.0",
+    "marked": "18.0.12",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@vitejs/plugin-react": "6.1.1",
+    "playwright": "1.58.2",
+    "tailwindcss": "4.3.3",
+    "vite": "8.3.0"
+  },
+  "description": "A red-and-white Xboard user theme built with React, Ant Design and HeroUI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grandova/Xboar-HeroRui-Theme.git"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
